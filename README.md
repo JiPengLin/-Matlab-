@@ -18,9 +18,10 @@
   对主要的程序进行简单说明
 <checkErrorFramePoint.m>为利用相关性变化度为特征，利用二次切比雪夫挑出离群点;  
 > [1]黄添强, 陈智文, 苏立超,等. 利用内容连续性的数字视频篡改检测[J]. 南京大学学报(自然科学版), 2011, 47(5):493-503.
-<checkErrorFramePointByKmeans.m>为方法1；  
-<checkErrorFramePointBySVM.m>为方法2；  
-<GeneratingTrainingSets.m>和<SVMTrain.m>为训练集获取和训练模型（fitcsvm参数利用matlab默认参数）
+
+```<checkErrorFramePointByKmeans.m>```为方法1；  
+```<checkErrorFramePointBySVM.m>```为方法2；  
+```<GeneratingTrainingSets.m>```和```<SVMTrain.m>```为训练集获取和训练模型（fitcsvm参数利用matlab默认参数）
 
 ## 常见问题
   方法2效果并不好（基本没用，就是论文凑字数的），欢迎自行改进！
